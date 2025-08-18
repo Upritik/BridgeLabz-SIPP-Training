@@ -1,4 +1,4 @@
-package BuiltInFunction;
+package BuiltInFunction.Level1;
 
 import java.util.Scanner;
 
