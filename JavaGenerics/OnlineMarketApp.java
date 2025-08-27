@@ -1,3 +1,4 @@
+package JavaGenerics;
 import java.util.*;
 
 interface Category {
