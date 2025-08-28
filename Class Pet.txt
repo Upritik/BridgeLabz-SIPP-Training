@@ -1,0 +1,22 @@
+Class Pet
+Attribute name 
+Attribute age
+Attribute type
+
+Constructor(name, age, type)
+this.name=name
+this.age=age
+this.type=type
+METHOD displayInfo()
+ PRINT name, age, type
+
+Class dog EXTEND pet
+Attribute breed
+ 
+Constructor(name, age, breed)
+call pet.constructor(breed)
+this.breed=breed
+
+method displayinfo()
+CALL parent displayInfo()
+PRINT breed
